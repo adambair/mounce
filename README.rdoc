@@ -17,6 +17,7 @@ create ~/.mounce.yml and fill it with the following:
     password: <password>
     api: 'https://<account>.presentlyapp.com/api/twitter/statuses/update.xml'
 
+
   mounce --help
 
 == Disclaimer

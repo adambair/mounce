@@ -1,0 +1,29 @@
+= Mounce
+
+The Music annOUNCEr for Presently. Mounce will post your current iTunes track to Presently, the ambient awareness tool by Intridea.
+
+== Requirements
+
+curl (with https support)
+
+== Getting Started
+
+  gem install adambair-mounce --source=http://gems.github.com
+
+create ~/.mounce.yml and fill it with the following:
+
+  presently:
+    username: <username>
+    password: <password>
+    api: 'https://<account>.presentlyapp.com/api/twitter/statuses/update.xml'
+
+  mounce --help
+
+== Disclaimer
+
+This gem is provided as is - therefore, the creators and contributors of this plugin are not responsible for any damages that may result from it's usage.  Use at your own risk; backup your data.
+
+== Resources
+
+Created by Adam Bair (adam@intridea.com) of Intridea (http://www.intridea.com)
+

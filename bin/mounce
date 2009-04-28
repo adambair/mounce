@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+
+$:.unshift(File.join(File.dirname(File.dirname(__FILE__)),'lib'))
+begin; require 'rubygems'; rescue LoadError; end
+require 'mounce'
+
+if ARGV.include?('--help')
+  puts "usage: mounce #=> will post '#music artist - song' in presently"
+  puts ""
+  puts "Be sure to add your credentials to the mounce config file:"
+  puts "~/.mounce.yml"
+  puts "  presently:"
+  puts "    username: '...'"
+  puts "    password: '...'"
+  puts "    api: 'https://<account>.presentlyapp.com/api/twitter/statuses/update.xml'\n\n"
+  exit
+end
+
+mounce = Mounce.new
+puts mounce.message
+mounce.share!
+

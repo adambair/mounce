@@ -1,0 +1,4 @@
+presently:
+  username: 'alagash'
+  password: 'password'
+  api: 'https://account.presentlyapp.com/api/twitter/statuses/update.xml'

@@ -10,13 +10,14 @@ curl (with https support)
 
   gem install adambair-mounce --source=http://gems.github.com
 
-create ~/.mounce.yml and fill it with the following:
+Create ~/.mounce.yml and fill it with the following:
 
   presently:
     username: <username>
     password: <password>
     api: 'https://<account>.presentlyapp.com/api/twitter/statuses/update.xml'
 
+You can see this help file by typing:
 
   mounce --help
 

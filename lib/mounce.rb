@@ -25,7 +25,7 @@ class Mounce
       if File.exist?(config_file)
         @config = YAML.load(open(config_file))['presently']
       else
-        raise "Missing config file: ~/.mounce.yml (see 'mounce --help')"
+        raise "Missing config file: #{config_file} (see 'mounce --help')"
       end
     end
 

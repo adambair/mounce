@@ -35,7 +35,7 @@ class Mounce
     end
 
     def stream?
-      !!@itunes.current_stream_title
+      @itunes.current_stream_title
     end
 end
 

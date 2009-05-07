@@ -22,11 +22,8 @@ class Mounce
   private
 
     def config(config_file)
-      if File.exist?(config_file)
-        @config = YAML.load(open(config_file))['presently']
-      else
-        raise "Missing config file: #{config_file} (see 'mounce --help')"
-      end
+      raise "Missing config file: #{config_file} (see 'mounce --help')" unless File.exist?(config_file)
+      @config = YAML.load(open(config_file))['presently']
     end
 
     def find_song_information

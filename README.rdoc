@@ -28,6 +28,7 @@ You can see this help file by typing:
 * Ability to add custom text to the message
 * Album artwork as an attachment (when the api allows)
 * Links to Songza or Grooveshark or Something
+* Evernote integration?
 
 == Disclaimer
 

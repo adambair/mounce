@@ -4,9 +4,9 @@ The Music annOUNCEr for Presently. Mounce will post your current iTunes track to
 
 == Requirements
 
-itunes/osx
-rubyosa
-curl (with https support)
+* itunes/osx
+* rubyosa
+* curl (with https support)
 
 == Getting Started
 

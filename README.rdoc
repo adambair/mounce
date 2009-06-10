@@ -29,6 +29,8 @@ You can see this help file by typing:
 * Album artwork as an attachment (when the api allows)
 * Links to Songza or Grooveshark or Something
 * Evernote integration?
+* Add twitter instructions to readme
+* Add --pretend argument
 
 == Disclaimer
 

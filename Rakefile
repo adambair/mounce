@@ -10,11 +10,17 @@ begin
     gem.summary = 'Music annOUNCEr for Presently'
     gem.homepage = 'http://www.github.com/adambair/mounce'
     gem.description = 'Mounce will post your current itunes track to Presently.'
-    gem.add_dependency('rubyosa', '>= 0.4.0')
+    gem.executable = "mounce"
+    gem.add_dependency('pbosetti-rubyosa', '>= 0.5.3')
+    gem.files =  FileList["[A-Z]*", "{bin,generators,lib,test}/**/*", 'lib/jeweler/templates/.gitignore']
   end
+
+  Jeweler::GemcutterTasks.new
+  
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end
+
 
 require 'spec/rake/spectask'
 Spec::Rake::SpecTask.new(:spec) do |spec|

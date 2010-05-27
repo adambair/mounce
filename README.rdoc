@@ -1,6 +1,6 @@
 = Mounce
 
-The Music annOUNCEr for Presently. Mounce will post your current iTunes track to Presently, the ambient awareness tool by Intridea.
+The Music annOUNCEr for Presently. Mounce will post your current iTunes track to Presently, the ambient awareness tool by Intridea. Currently OSX only. 
 
 == Requirements
 
@@ -10,7 +10,8 @@ The Music annOUNCEr for Presently. Mounce will post your current iTunes track to
 
 == Getting Started
 
-  gem install adambair-mounce --source=http://gems.github.com
+  port install rb-rubyosa
+  gem install mounce
 
 Create ~/.mounce.yml and fill it with the following:
 

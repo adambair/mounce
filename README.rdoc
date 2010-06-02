@@ -32,6 +32,8 @@ You can see this help file by typing:
 * Evernote integration?
 * Add twitter instructions to readme
 * Add --pretend argument
+* Add support for twitter
+* Add support for other APIs
 
 == Disclaimer
 

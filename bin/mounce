@@ -12,7 +12,7 @@ if ARGV.include?('--help')
   puts "  presently:"
   puts "    username: '...'"
   puts "    password: '...'"
-  puts "    api: 'https://<account>.presentlyapp.com/api/twitter/statuses/update.xml'\n\n"
+  puts "    api: 'https://<account>.presently.com/api/twitter/statuses/update.xml'\n\n"
   exit
 end
 

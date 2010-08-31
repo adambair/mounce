@@ -16,7 +16,7 @@ class Mounce
   end
 
   def share!
-    `curl #{@config['api']} -u #{@config['username']}:#{@config['password']} -d status="#{message}" -d source="mounce"`
+    `curl #{@config['api']} -u #{@config['username']}:#{@config['password']} --data-urlencode status="#{message}" -d source="mounce"`
   end
 
   private

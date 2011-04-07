@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'rbosa'
-require 'YAML'
+require 'yaml'
 
 class Mounce
   attr_reader :artist, :track

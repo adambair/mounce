@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'rake'
+require 'YAML'
 
 begin
   require 'jeweler'
